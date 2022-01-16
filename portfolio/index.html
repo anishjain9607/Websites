@@ -9,6 +9,7 @@
 </head>
 
 <body>
+       <div id="preloader"> </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top"><span style="color: black;font-weight:bold;">&#8593;</span></button>
 
 <div class="main" id="home">
@@ -79,7 +80,7 @@
            </div>
            <div class="section-button">
              <a href="resume.pdf" download><button>Download CV</button></a>
-             <a href="#contact"><button>Contact</button></a>
+             <a href="https://api.whatsapp.com/send/?phone=918125366612&text=Hello+Anish+Jain%21%21+"><button>Contact</button></a>
            </div>   
        </div>       		         
      </div>
@@ -294,6 +295,13 @@ document.onmousedown = rtclickcheck;
     duration:800
     });
   </script>
+
+   <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })  
+   </script>
 
 
 </body>
