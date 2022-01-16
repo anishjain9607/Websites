@@ -214,6 +214,10 @@ color:#A9AFC3; padding:80px 130px 0 130px; font-family: 'Roboto Condensed', sans
 
 @media (max-width:600px){
 
+#preloader{
+    background-size: 50%;
+}
+
 h1{font-size:40px !important;margin-bottom:0px !important;}
 
 h2{font-size:30px;margin-bottom:15px;}
